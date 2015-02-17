@@ -43,11 +43,11 @@
       </div>
 
       <div class="subject">
-      - {{format-message build.commit.subject repoBinding=build.repo}}
+      - {{format-message build.commit.subject repo=build.repo}}
       </div>
     </div>
 
-    <pre class="body">{{format-message build.commit.body repoBinding=build.repo pre=true}}</pre>
+    <pre class="body">{{format-message build.commit.body repo=build.repo pre=true}}</pre>
 
     <div class="footer">
       <div class="author">
